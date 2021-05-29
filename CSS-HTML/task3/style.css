@@ -1,0 +1,26 @@
+/* ⦁	Напишите стили для кнопки, которая может иметь несколько состояний: active, disabled, danger. Цвета произвольные. */
+.wrapper{
+    padding: 100px
+}
+
+button {
+    padding: 20px;      
+    border: none;
+    border-radius: 5px;
+    background-color: #0703ff;
+    color: white;
+    transition: color 300ms ease;
+}
+
+button:active{
+    background-color: #0300bf;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: #eee
+}
+
+button:disabled{
+    background-color: #c7c7c7;
+    color:#616161;
+}
+
+/* Псевдокласса danger нет */

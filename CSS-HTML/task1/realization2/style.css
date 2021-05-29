@@ -1,0 +1,12 @@
+/* ⦁	Опишите все известные вам способы позиционирования 5 элементов по центру, каждый из которых должен занимать 20%. */
+ 
+#wrapper{
+    max-width: 100px;
+    margin: 0 auto;
+    height: 100vh
+}
+
+.box{
+    height: 20%;
+    background-color: aquamarine;
+}

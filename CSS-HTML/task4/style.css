@@ -1,0 +1,29 @@
+/* ⦁	Сверстайте страницу логина, которая должна содержать только форму с полями email, password. */
+
+.formWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.fields{
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+button {
+    padding: 5px 15px;      
+    border: none;
+    border-radius: 3px;
+    background-color: #0703ff;
+    color: white;
+    transition: color 300ms ease;
+}
+
+button:active{
+    background-color: #0300bf;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: #eee
+}

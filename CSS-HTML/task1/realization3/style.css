@@ -1,0 +1,13 @@
+/* ⦁	Опишите все известные вам способы позиционирования 5 элементов по центру, каждый из которых должен занимать 20%. */
+ 
+#wrapper{
+    display: grid;
+    grid-template-rows: repeat(5, 20%);
+    grid-template-columns: 1fr;
+    justify-items: center;
+    height: 100vh
+}
+
+.box{
+    background-color: aquamarine;
+}
